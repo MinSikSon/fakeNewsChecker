@@ -1,0 +1,26 @@
+15:24
+
+학습 환경 구축
+
+web server: Apache, Nginx, IIS
+
+bitnami: 서버 소프트웨어를 쉽게 한방에 설치할 수 있게 해주는 도구 (apache, php, mysql)
+
+apm settup
+
+bitnami 이용해서 apache, php, mysql 한 방에 설치하삼
+(설치 중에 각 프로그램에서 사용할 port 등도 설정함)
+
+/opt/lampstack-5.6.30-0/apache2/htdocs 폴더의 index.html 파일이 중요!
+
+index.html 파일을 웹브라우저로 열면!?
+
+여기서 사용하는 htdocs는 html 파일을 담는 폴더로 사용함
+
+파일을 웹 서버가 찾아내는 디렉토리를 Document Root 라고 함
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+class running time: 20 hour
+
+웹 앱 = 홈페이지 = 웹페이지
+
+웹?
+
+목표: 웹 공부 통해 프로그래밍이 무엇인지 알자
+
+웹은 진입 장벽이 낮다
+
+인터넷
+
+웹 구동: client<->server 간 통신
+
+client side: html, css, javascript, web browser
+
+server side: middle ware(php), db(mysql), web server
+
+what is middle ware?
+
+what is db?
+
+비 전문가='무엇을 모르는지 모르는 상태'
+
+무엇을 모르는지 아는 상태로 나아가자
+
+무엇을 모르는지 알아야 질문을 할 수 있고 그것을 공부할 수 있다.
+
+(2017-02-08 01:04)
+
+
+
+
+
+
+

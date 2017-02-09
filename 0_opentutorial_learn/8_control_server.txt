@@ -1,0 +1,12 @@
+4:37
+
+apache, php, mysql 제어
+
+bitnami 파일 제어
+
+$ cd /opt/bitnami-xxxx/
+$ sudo chmod +x manager-linux-x64.run
+$ ./manager-linux-x64.run
+
+manager server 탭의 configure 을 보면 해당 프로그램의 port 나 log 를 볼 수 있다.
+

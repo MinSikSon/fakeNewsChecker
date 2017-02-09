@@ -1,0 +1,14 @@
+16:12
+
+윈도우용 bitnami 다운
+
+구글에 bitnami wamp 검색
+
+bitnami WAMP stack 다운
+
+관리자 권한으로 install 진행
+
+체크 박스 제일 아래것 놔두고 다 해제
+
+cloud 어쩌고 하는것 체크박스 해제
+

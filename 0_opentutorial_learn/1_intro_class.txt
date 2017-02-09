@@ -1,0 +1,18 @@
+8:24
+
+reactive web application?
+
+what is web?
+
+what is coding?
+
+what is information technology?
+
+index.php
+
+program is letter for communicating User with computer
+
+program code look like star
+
+이 수업을 다 듣고나면, 수업에서 배우는 코드들을 읽고 해석할 수 있게 된다. 그리고 코드를 하나하나 설명할 수 있게 된다면 이해를 한 것이라 볼 수 있다.
+

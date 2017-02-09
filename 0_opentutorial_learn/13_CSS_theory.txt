@@ -1,0 +1,88 @@
++------------------------+
+| 13:31 - CSS의 기본문법 |
++------------------------+
+
+CSS: Cascading Style Sheet
+
+STYLE
+
+STYLE을 위한 언어
+
+CSS HTML과는 독립된 언어
+
+그러나 CSS는 HTML을 떠나서는 살 수 없는 언어
+
+HTML 상에 HTML을 꾸미기 위한 태그가 포함되어 있었다.
+
+HTML이 정보에 집중하게 하기 위해서, HTML에 포함된 시각적 태그들 다 퇴출되고 CSS가 그 기능을 담당하게 되었다.
+
+CSS는 디자인에 집중하는 언어
+
+HTML과 CSS는 어떻게 공존하게 되는가??
+
+<style> 이라는 태그 사용
+
+HTML에서 쓰는 h1 h2 h3 태그는 스타일 적인 측면도 있지만 중요도 라는 의미를 갖는다.
+
+<style>
+  h1 {color:red}
+</style>
+
+여기서 h1은 선택자(selector)
+
+{color:red}는 서술(description)
+
+
++------------------------+
+| 8:34 - 선택자 심화학습 |
++------------------------+
+
+{color:red; font-size:10px}
+
+여기서 각각은 속성이다
+
+속성은 ; 으로 구분
+
+
++------------------------------+
+| 18:00 - CSS 이론 3: 박스모델 |
++------------------------------+
+
+CSS박스모델: html 태그들의 위치, 위치, 부피, 여백 이런 것들을 지정하는 것
+
+<style>
+	# selected {
+		border:red 1px solid;
+		padding:30px;
+		margin: 50px;
+	}
+</style>
+...
+<ul>
+	<li>html</li>
+	<li id="selected">css</li>
+	<li>javascript</li>
+</ul>
+
+경계(border)와 태그 사이가 padding
+경계(border)와 다른 태그 사이가 margin
+태그의 높이가 height
+태그의 너비가 width
+
+구글 크롬에서 F12 -> 개발자 모델
+
+margin border padding 등을 실시간으로 볼 수 있다.
+
+
++--------------------------+
+| 7:41 - CSS 이론 4: float |
++--------------------------+
+
+float은 웹 페이지 레이아웃 디자인할 때 쓰이는 속성!!
+
+<style>
+	img{
+		float:right;
+	}
+</style>
+
