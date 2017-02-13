@@ -5,7 +5,8 @@
 </head>
 <body>
 	<form action="8-2.php">
-		<p>input password</p>
+		<p>비밀번호를 입력해주세요.</p>
+		<input type="text" name="id">
 		<input type="text" name="password">
 		<input type="submit">
 	</form>

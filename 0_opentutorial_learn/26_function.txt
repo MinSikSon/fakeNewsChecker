@@ -1,0 +1,39 @@
++-------------------------+
+| 11:32 - 함수의 기본문법 |
++-------------------------+
+
+사람의 복잡도 인지 한계 -> 함수의 사용 이유
+
+함수: 서로 연관되어 있는 어떤 부품들,, 데이터, 조건문, 반복문 이런 부품들을 함수로 묶어서 사용함
+
+함수가 모여서 또 다른 큰 함수가 되고, 여러 함수가 모여서 하나의 프로그램이 된다.
+
+함수의 문법:
+
+function function_name(){
+}
+
++----------------------------+
+| 14:23 - 함수의 입력과 출력 |
++----------------------------+
+<script>
+function function_name(input){
+	document.write(input+1);
+	return input+1;
+}
+out = function_name(1);
+</script>
+
+document.write() 에서 write도 함수
+
+function_name(){} 은 사용자 지정 함수라고 부른다.
+
+<?php
+function function_name($input){
+	echo $input+1
+	return $input+1;
+}
+
+echo function_name(1);
+
+?>
