@@ -1,0 +1,61 @@
++---------------+
+| 11:25 - 실습1 |
++---------------+
+
+버튼 눌렸을 때 웹 페이지 배경 색 바뀌는 것 해볼 것임
+
+JavaScript가 html을 프로그래밍적으로 제어하는 언어!!라는 것을 기억 하는 것이 중요하다
+
+태그를 /> 하는 경우는, 닫히는 태그가 필요 없을 경우에 그냥 닫아준다.
+
+<input> 태그: 사용자가 웹 애플리케이션에 무언가 입력할 수 있게 하는 태그!!
+
+<input type="button" value="white" />
+<input type="text" value="white" />
+<input type="checkbox" value="white" />
+
+<script>
+	alert("alert는 경고창을 띄울 때 사용!!");
+</script>
+
+다음으로 javascript의 event 라는 것을 배워본다!!
+
+alert("");는 html 태그 상에서도 존재 가능하다.
+
+<input type="button" value="white" onclick="alert('Hello world')" />
+
+이런 식으로 버튼 누르면 경고창 뜨게 할 수 있다.
+
+onclick 부분에 javascript에 해당하는 코드를 입력하면, button을 눌렀을 때 해당 동작을 하게 된다!!
+
+즉 onclick이라는 속성의 속성 값에는 javascript 코드가 들어간다.
+
+event programming: 어떠한 사건이 일어났을 때, 어떤 코드가 실행 되어야 한다는 것을 브라우저에게 명령해 놓는 것을 event 프로그래밍이라고 한다.
+
++--------------+
+| 8:09 - 실습2 |
++--------------+
+
+text 에 어떤 값을 입력하고 button 을 눌렸을 때, text에 입력한 값을 alert로 띄우고 싶음
+
+element는 value랑 같은 의미
+
+<input type="text" id="text1" />
+<input type="button" value="white" onclick="alert(document.getElementById('text1').value)" />
+
++---------------+
+| 14:14 - 실습3 |
++---------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
