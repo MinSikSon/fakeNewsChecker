@@ -47,10 +47,45 @@ element는 value랑 같은 의미
 | 14:14 - 실습3 |
 +---------------+
 
+두 개의 <li>의 style만 바꾸고 싶다면? -> class로 그루핑!!
+
+<style>
+.em{
+	text-decoration: underline;
+	color:red;
+}
+<style>
+<ul class="em">
+	<li>test</li>
+</ul>
+<ol>
+	<li class="em">손민식</li>
+	<li class="em">박동일</li>
+</ol>
 
 
+위에서 처럼 class 속성은 태그 상관없이 사용 가능하다.
 
+css 디자인 + js 제어
 
+<style>
+	.em{
+		text-decoration: underline;
+		color:red;
+		}
+</style>
+
+<ol id="target">
+	<li>html</li>
+	<li>css</li>
+	<li>javascript</li>
+</ol>
+
+<input type="button" value="강조" onclick="document.getElementById='target').className='em'"/>
+
++---------------+
+| 15:40 - 실습4 |
++---------------+
 
 
 
