@@ -87,10 +87,81 @@ css 디자인 + js 제어
 | 15:40 - 실습4 |
 +---------------+
 
+<div> 태그: 특징이 없다는 것이 특징. 단순히 그루핑 할 때에만 사용.
+
+<div id="control"></div>
+
+이런식으로 div 태그 사용할 경우
+
+<style>
+	#control {
+	}
+</style>
+
+이런식으로 id의 스타일 꾸며줄 수 있다.
+
+<div id="control">
+	<input type="button" value="블랙" id="black" onclick="document.getElementById('target').className='black'"/>
+	<input type="button" value="화이트" id="black" onclick="document.getElementById('target').className='white'"/>
+</div>
+
++---------------+
+| 10:56 - 실습5 |
++---------------+
+
+html과 html이 아닌 것을 분리해서 html을 정보로써 더 가치있도록 만드는 컨셉과, 중복되는 코드는 중복을 제거해서 유지보수/속도 측면에서 향상시키는 것이 있으면 더 좋다.
+
+CSS    - HTML - JavaScript
+디자인 - 정보 - 제어
+
++------------------------------------------------+
+| 11:17 - 지금까지 배운 것만으로도 할 수 있는 일 |
++------------------------------------------------+
+
+웹 애플리케이션에 DISQUS 라는 프로그램 붙이기
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//saengkowebaebmandeulgisueob-1.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
+
+위의 코드는 body의 원하는 부분에 붙여넣으면 된다.
 
 
+tawk.to 라는 채팅 프로그램을 웹 애플리케이션상에 붙이기
 
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/58ab186b66272e0ab0353918/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
+위의 위젯 코드를 body 의 넣기 원하는 부분에 넣으면 된다
 
 
 

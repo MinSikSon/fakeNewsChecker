@@ -1,0 +1,83 @@
+/* 초기화 */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  margin: 20px auto 50px;
+  display: table;
+}
+
+
+/* 화면 글 상자 */
+
+.task {
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.task > ul {
+  padding: 15px;
+  list-style: none;
+  color: white;
+  vertical-align: middle;
+}
+
+#task1 {
+  background-color: #3A3531;
+}
+
+#task2 {
+  background-color: #F3ECDC;
+}
+
+#task2 ul {
+  color: brown;
+}
+
+#task3 {
+  background-color: #BFB4A8;
+}
+
+#task4 {
+  background-color: #201917;
+}
+
+#task5 {
+  background-color: #706058;
+}
+
+
+/* 마우스 메뉴 */
+
+.context-menus {
+  position: absolute;
+  display: none;
+  border: 1px solid black;
+  width: 200px;
+  text-align: center;
+}
+
+.context-menus.active {
+  display: block;
+  background-color: white;
+}
+
+.context-menus.active>ul>li {
+  list-style: none;
+  padding: 10px;
+}
+
+.context-menus.active>ul>li:hover {
+  background-color: lightgreen;
+}
+
+
+/* list-style은 li태그의 경우 div나 ul이 아닌 li에 바로 붙여야 한다. */
