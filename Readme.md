@@ -1,1 +1,1 @@
-This is for learning javascript.
+This github page is just for learning javascript.
